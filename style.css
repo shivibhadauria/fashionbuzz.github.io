@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 60px;
+    height: 60rem;
     width: 100%;
     background: black;
   }
@@ -31,14 +31,14 @@
     list-style: none;
   }
   .heading ul li a {
-    margin: 5px;
+    margin: 5rem;
     text-decoration: none;
     color: black;
     font-weight: 500;
     position: relative;
     color: white;
-    margin: 2px 14px;
-    font-size: 18px;
+    margin: 2rem 14rem;
+    font-size: 18rem;
     transition-duration: 1s;
   }
   .heading ul li a:active {
@@ -51,8 +51,8 @@
   
   .heading ul li a::before {
     content: "";
-    height: 2px;
-    width: 0px;
+    height: 2rem;
+    width: 0rem;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -65,21 +65,21 @@
     background-color: rgb(243, 168, 7);
   }
   #input {
-    height: 30px;
-    width: 300px;
+    height: 30rem;
+    width: 300rem;
     text-decoration: none;
-    border: 0px;
-    padding: 5px;
+    border: 0rem;
+    padding: 5rem;
   }
   .logo a {
     color: white;
-    font-size: 35px;
+    font-size: 35rem;
     font-weight: 500;
     text-decoration: none;
   }
   ion-icon {
-    width: 30px;
-    height: 30px;
+    width: 30rem;
+    height: 30rem;
     background-color: white;
     color: black;
   }
@@ -91,61 +91,61 @@
   }
   header a ion-icon {
     position: relative;
-    right: 3px;
+    right: 3rem;
   }
   
   .img-slider img {
-    height: 720px;
-    width: 1080px;
+    height: 720rem;
+    width: 1080rem;
   }
   @keyframes slide {
     0% {
-      left: 0px;
+      left: 0rem;
     }
     15% {
-      left: 0px;
+      left: 0rem;
     }
     20% {
-      left: -1080px;
+      left: -1080rem;
     }
     32% {
-      left: -1080px;
+      left: -1080rem;
     }
     35% {
-      left: -2160px;
+      left: -2160rem;
     }
     47% {
-      left: -2160px;
+      left: -2160rem;
     }
     50% {
-      left: -3240px;
+      left: -3240rem;
     }
     63% {
-      left: -3240px;
+      left: -3240rem;
     }
     66% {
-      left: -4320px;
+      left: -4320rem;
     }
     79% {
-      left: -4320px;
+      left: -4320rem;
     }
     82% {
-      left: -5400px;
+      left: -5400rem;
     }
     100% {
-      left: 0px;
+      left: 0rem;
     }
   }
   .img-slider {
     display: flex;
     float: left;
     position: relative;
-    width: 1080px;
-    height: 720px;
+    width: 1080rem;
+    height: 720rem;
     animation-name: slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    transition-duration: 2s;
+    transition-duration: 10s;
   }
   
   .heading1 {
@@ -156,12 +156,12 @@
     position: relative;
   }
   .section1 {
-    width: 1080px;
+    width: 1080rem;
     overflow: hidden;
   
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
+    margin: 0rem auto;
   }
   
   .section2 .container {
@@ -170,42 +170,42 @@
     height: max-content;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px auto;
+    margin: 10rem auto;
   }
   .section2 .container .items {
-    margin: 10px;
-    width: 200px;
-    height: 300px;
+    margin: 10rem;
+    width: 200rem;
+    height: 300rem;
     background-color: white;
-    border: 2.5px solid black;
-    border-radius: 12px;
+    border: 2.5rem solid black;
+    border-radius: 12rem;
   }
   .section2 .container .items .name {
     text-align: center;
     background-color: #2e8b57;
-    height: 25px;
-    padding-top: 4px;
+    height: 25rem;
+    padding-top: 4rem;
     color: white;
     margin: 0;
   }
   .section2 .container .items .price {
     float: left;
-    padding-left: 10px;
+    padding-left: 10rem;
     display: block;
     width: 100%;
     color: rgb(255, 0, 0);
     font-weight: 650;
   }
   .section2 .container .items .info {
-    padding-left: 10px;
+    padding-left: 10rem;
     color: rgb(243, 168, 7);
   }
   .section2 .container .items .img img {
-    width: 200px;
-    height: 200px;
+    width: 200rem;
+    height: 200rem;
     margin: 0;
     padding: 0;
-    border-radius: 12px;
+    border-radius: 12rem;
     transition-duration: 0.8s;
   }
   .section2 .container .items .img {
@@ -215,7 +215,7 @@
   .section2 .container .items:hover .img img {
     transform: scale(1.2);
     transition-duration: 0.8s;
-    border-radius: 12px;
+    border-radius: 12rem;
   }
   footer {
     display: flex;
@@ -230,7 +230,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 15px;
+    margin-top: 15rem;
   }
   .social-media {
     display: flex;
@@ -240,9 +240,9 @@
   }
   .social-media a {
     color: white;
-    margin: 20px;
-    border-radius: 5px;
-    margin-top: 10px;
+    margin: 20rem;
+    border-radius: 5rem;
+    margin-top: 10rem;
     color: white;
   }
   .social-media a ion-icon {
@@ -251,7 +251,7 @@
   }
   .social-media a:hover ion-icon {
     color: red;
-    transform: translateY(5px);
+    transform: translateY(5rem);
   }
   .footer2 {
     display: flex;
@@ -270,11 +270,11 @@
   }
   .footer2 .heading {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 18rem;
   }
   .footer3 {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 60rem;
+    margin-bottom: 20rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -286,10 +286,10 @@
     transform: scale(1.05);
   }
   .footer3 h4 {
-    margin: 0 10px;
+    margin: 0 10rem;
   }
   .footer2 div {
-    margin: 10px;
+    margin: 10rem;
   }
   .menu {
     visibility: hidden;
@@ -304,7 +304,17 @@
   .close {
     cursor: pointer;
   }
-  
+  @media(max-width: 998rem){
+    html{
+      font-size:55%;
+    }
+  }
+  @media(max-width: 768rem){
+    html{
+      font-size:45%;
+    }
+  }
+
   @media screen and (max-width: 1250px) {
     .heading ul li {
       display: none;
@@ -392,16 +402,16 @@
     }
     .menu ul li {
       list-style: none;
-      margin: 20px;
-      border-top: 3px solid white;
+      margin: 20rem;
+      border-top: 3rem solid white;
       width: 80%;
       text-align: center;
   
-      padding-top: 10px;
+      padding-top: 10rem;
     }
     .menu ul li a {
       text-decoration: none;
-      padding-top: 10px;
+      padding-top: 10rem;
       color: white;
       font-weight: 900;
     }
@@ -417,7 +427,7 @@
       animation-name: slide1;
       animation-duration: 10s;
       animation-iteration-count: infinite;
-      transition-duration: 2s;
+      transition-duration: 10s;
     }
     .section1 {
       width: 80%;
@@ -425,13 +435,13 @@
   
       justify-content: center;
       align-items: center;
-      margin: 0px auto;
+      margin: 0rem auto;
     }
   
     .heading1 {
       opacity: 1;
       position: relative;
-      bottom: 8px;
+      bottom: 8rem;
     }
     .search a {
       display: flex;
@@ -443,11 +453,11 @@
       color: white;
     }
     #input {
-      width: 200px;
+      width: 200rem;
       flex-shrink: 2;
     }
     header {
-      height: 150px;
+      height: 150rem;
     }
   }
   @media screen and (max-width: 550px) {
@@ -457,17 +467,17 @@
     .heading1 {
       opacity: 1;
   
-      bottom: 8px;
+      bottom: 8rem;
     }
   
     header {
-      height: 250px;
+      height: 250rem;
       flex-wrap: wrap;
       display: flex;
       flex-direction: column;
     }
     #input {
-      width: 150px;
+      width: 150rem;
     }
     .close {
       z-index: 34;
